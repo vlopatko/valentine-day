@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+.main-container {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-position: top;
+  background-image: url('./public/bg-2560x1440.png');
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heart {
+  width: 128px;
+  height: 128px;
+}
+
+.gif-container {
+  position: sticky;
+  bottom: 100px;
+}
+
+.gif {
+  bottom: 0;
+  position: sticky;
+  width: 100%;
+}
+
+.font {
+  font-size: 38px;
+  color: crimson;
+  text-align: center;
+  justify-content: center;
+}
+
+.protest-riot-regular {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
